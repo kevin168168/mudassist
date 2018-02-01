@@ -26,15 +26,11 @@ namespace Mud.Helpers
         public static readonly string Def = Core.Player.Stats.Defense.ToString();
         public static readonly string Dex = Core.Player.Stats.Dexterity.ToString();
         public static readonly string Dhit = Core.Player.Stats.DirectHitRate.ToString();
-        public static readonly string Earth = Core.Player.Stats.Earth.ToString();
-        public static readonly string Fire = Core.Player.Stats.Fire.ToString();
         public static readonly string Gth = Core.Player.Stats.Gathering.ToString();
         public static readonly string Hmp = Core.Player.Stats.HealingMagicPotency.ToString();
-        public static readonly string Ice = Core.Player.Stats.Ice.ToString();
         public static readonly string Int = Core.Player.Stats.Intelligence.ToString();
         public static readonly string Job = Core.Player.CurrentJob.ToString();
         public static readonly string Level = Core.Player.ClassLevel.ToString();
-        public static readonly string Lightining = Core.Player.Stats.Lightning.ToString();
         public static readonly string Maxcp = Core.Player.MaxCP.ToString();
         public static readonly string Maxgp = Core.Player.MaxGP.ToString();
         public static readonly string Maxhp = Core.Player.MaxHealth.ToString();
@@ -50,9 +46,7 @@ namespace Mud.Helpers
         public static readonly string Str = Core.Player.Stats.Strength.ToString();
         public static readonly string Tnc = Core.Player.Stats.Tenacity.ToString();
         public static readonly string Vit = Core.Player.Stats.Vitality.ToString();
-        public static readonly string Water = Core.Player.Stats.Water.ToString();
-        public static readonly string Wind = Core.Player.Stats.Wind.ToString();
-
+        
         #endregion Stats
 
         #region Job Types

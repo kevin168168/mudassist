@@ -56,19 +56,6 @@ namespace Mud.Settings.Forms
             this.gbxCharPhysical = new System.Windows.Forms.GroupBox();
             this.tbxCharSkillSpeed = new System.Windows.Forms.TextBox();
             this.tbxCharAttackPower = new System.Windows.Forms.TextBox();
-            this.gbxElementalResistances = new System.Windows.Forms.GroupBox();
-            this.ptbCharLightningResistance = new System.Windows.Forms.PictureBox();
-            this.ptbCharEarthResistance = new System.Windows.Forms.PictureBox();
-            this.ptbCharWaterResistance = new System.Windows.Forms.PictureBox();
-            this.ptbCharWindResistance = new System.Windows.Forms.PictureBox();
-            this.ptbCharIceResistance = new System.Windows.Forms.PictureBox();
-            this.ptbCharFireResistance = new System.Windows.Forms.PictureBox();
-            this.tbxCharWaterResistance = new System.Windows.Forms.TextBox();
-            this.tbxCharLightningResistance = new System.Windows.Forms.TextBox();
-            this.tbxCharEarthResistance = new System.Windows.Forms.TextBox();
-            this.tbxCharWindResistance = new System.Windows.Forms.TextBox();
-            this.tbxCharIceResistance = new System.Windows.Forms.TextBox();
-            this.tbxCharFireResistance = new System.Windows.Forms.TextBox();
             this.gbxCharDefensive = new System.Windows.Forms.GroupBox();
             this.tbxCharDefense = new System.Windows.Forms.TextBox();
             this.tbxCharMagicDefense = new System.Windows.Forms.TextBox();
@@ -176,13 +163,6 @@ namespace Mud.Settings.Forms
             this.gbxCharRole.SuspendLayout();
             this.gbxCharExtra.SuspendLayout();
             this.gbxCharPhysical.SuspendLayout();
-            this.gbxElementalResistances.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ptbCharLightningResistance)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ptbCharEarthResistance)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ptbCharWaterResistance)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ptbCharWindResistance)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ptbCharIceResistance)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ptbCharFireResistance)).BeginInit();
             this.gbxCharDefensive.SuspendLayout();
             this.gbxCharOffensive.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ptbCharGrandCompany)).BeginInit();
@@ -215,9 +195,9 @@ namespace Mud.Settings.Forms
             this.gbxHotkeyMessages.SuspendLayout();
             this.gbxQuesting.SuspendLayout();
             this.SuspendLayout();
-            //
+            // 
             // stpStatus
-            //
+            // 
             this.stpStatus.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tspPauseStatus,
             this.tspMovementStatus,
@@ -228,32 +208,32 @@ namespace Mud.Settings.Forms
             this.stpStatus.Size = new System.Drawing.Size(341, 22);
             this.stpStatus.TabIndex = 4;
             this.stpStatus.Text = "statusStrip1";
-            //
+            // 
             // tspPauseStatus
-            //
+            // 
             this.tspPauseStatus.Name = "tspPauseStatus";
             this.tspPauseStatus.Size = new System.Drawing.Size(108, 17);
             this.tspPauseStatus.Spring = true;
-            //
+            // 
             // tspMovementStatus
-            //
+            // 
             this.tspMovementStatus.Name = "tspMovementStatus";
             this.tspMovementStatus.Size = new System.Drawing.Size(108, 17);
             this.tspMovementStatus.Spring = true;
-            //
+            // 
             // tspFollowModeStatus
-            //
+            // 
             this.tspFollowModeStatus.Name = "tspFollowModeStatus";
             this.tspFollowModeStatus.Size = new System.Drawing.Size(108, 17);
             this.tspFollowModeStatus.Spring = true;
-            //
+            // 
             // tspTargetModeStatus
-            //
+            // 
             this.tspTargetModeStatus.Name = "tspTargetModeStatus";
             this.tspTargetModeStatus.Size = new System.Drawing.Size(0, 17);
-            //
+            // 
             // tabControlMain
-            //
+            // 
             this.tabControlMain.Controls.Add(this.tabCharInfo);
             this.tabControlMain.Controls.Add(this.tabRoutine);
             this.tabControlMain.Controls.Add(this.tabMovement);
@@ -266,9 +246,9 @@ namespace Mud.Settings.Forms
             this.tabControlMain.Size = new System.Drawing.Size(341, 336);
             this.tabControlMain.TabIndex = 20;
             this.tabControlMain.Tag = "XC";
-            //
+            // 
             // tabCharInfo
-            //
+            // 
             this.tabCharInfo.BackColor = System.Drawing.SystemColors.Control;
             this.tabCharInfo.Controls.Add(this.gbxCharInfo);
             this.tabCharInfo.Location = new System.Drawing.Point(4, 22);
@@ -278,9 +258,9 @@ namespace Mud.Settings.Forms
             this.tabCharInfo.TabIndex = 5;
             this.tabCharInfo.Tag = "XC";
             this.tabCharInfo.Text = "Char Info";
-            //
+            // 
             // gbxCharInfo
-            //
+            // 
             this.gbxCharInfo.Controls.Add(this.tbxCharMP_CP_GPPerc);
             this.gbxCharInfo.Controls.Add(this.tbxCharTPPerc);
             this.gbxCharInfo.Controls.Add(this.tbxCharHPPerc);
@@ -289,7 +269,6 @@ namespace Mud.Settings.Forms
             this.gbxCharInfo.Controls.Add(this.gbxCharRole);
             this.gbxCharInfo.Controls.Add(this.gbxCharExtra);
             this.gbxCharInfo.Controls.Add(this.gbxCharPhysical);
-            this.gbxCharInfo.Controls.Add(this.gbxElementalResistances);
             this.gbxCharInfo.Controls.Add(this.gbxCharDefensive);
             this.gbxCharInfo.Controls.Add(this.gbxCharOffensive);
             this.gbxCharInfo.Controls.Add(this.cbxCharHideName);
@@ -312,9 +291,9 @@ namespace Mud.Settings.Forms
             this.gbxCharInfo.Size = new System.Drawing.Size(327, 304);
             this.gbxCharInfo.TabIndex = 11;
             this.gbxCharInfo.TabStop = false;
-            //
+            // 
             // tbxCharMP_CP_GPPerc
-            //
+            // 
             this.tbxCharMP_CP_GPPerc.BackColor = System.Drawing.SystemColors.Control;
             this.tbxCharMP_CP_GPPerc.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbxCharMP_CP_GPPerc.Location = new System.Drawing.Point(146, 97);
@@ -325,9 +304,9 @@ namespace Mud.Settings.Forms
             this.tbxCharMP_CP_GPPerc.Tag = "XC";
             this.tbxCharMP_CP_GPPerc.Text = "0/100 %";
             this.tbxCharMP_CP_GPPerc.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            //
+            // 
             // tbxCharTPPerc
-            //
+            // 
             this.tbxCharTPPerc.BackColor = System.Drawing.SystemColors.Control;
             this.tbxCharTPPerc.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbxCharTPPerc.Location = new System.Drawing.Point(252, 97);
@@ -338,9 +317,9 @@ namespace Mud.Settings.Forms
             this.tbxCharTPPerc.Tag = "XC";
             this.tbxCharTPPerc.Text = "0/100 %";
             this.tbxCharTPPerc.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            //
+            // 
             // tbxCharHPPerc
-            //
+            // 
             this.tbxCharHPPerc.BackColor = System.Drawing.SystemColors.Control;
             this.tbxCharHPPerc.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbxCharHPPerc.Location = new System.Drawing.Point(35, 97);
@@ -351,10 +330,10 @@ namespace Mud.Settings.Forms
             this.tbxCharHPPerc.Tag = "XC";
             this.tbxCharHPPerc.Text = "0/100 %";
             this.tbxCharHPPerc.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            //
+            // 
             // panel11
-            //
-            this.panel11.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            // 
+            this.panel11.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel11.Controls.Add(this.cmbSecondsBetweenUpdate);
@@ -362,9 +341,9 @@ namespace Mud.Settings.Forms
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(42, 23);
             this.panel11.TabIndex = 29;
-            //
+            // 
             // cmbSecondsBetweenUpdate
-            //
+            // 
             this.cmbSecondsBetweenUpdate.Dock = System.Windows.Forms.DockStyle.Fill;
             this.cmbSecondsBetweenUpdate.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbSecondsBetweenUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -374,9 +353,9 @@ namespace Mud.Settings.Forms
             this.cmbSecondsBetweenUpdate.Size = new System.Drawing.Size(40, 21);
             this.cmbSecondsBetweenUpdate.TabIndex = 9;
             this.cmbSecondsBetweenUpdate.Tag = "XC";
-            //
+            // 
             // label2
-            //
+            // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(161, 276);
             this.label2.Name = "label2";
@@ -384,9 +363,9 @@ namespace Mud.Settings.Forms
             this.label2.TabIndex = 28;
             this.label2.Tag = "XC";
             this.label2.Text = "Sec Between updates";
-            //
+            // 
             // gbxCharRole
-            //
+            // 
             this.gbxCharRole.Controls.Add(this.tbxCharPiety);
             this.gbxCharRole.Controls.Add(this.tbxCharTenacity);
             this.gbxCharRole.Location = new System.Drawing.Point(5, 263);
@@ -396,9 +375,9 @@ namespace Mud.Settings.Forms
             this.gbxCharRole.TabStop = false;
             this.gbxCharRole.Tag = "XC";
             this.gbxCharRole.Text = "Role";
-            //
+            // 
             // tbxCharPiety
-            //
+            // 
             this.tbxCharPiety.BackColor = System.Drawing.SystemColors.Control;
             this.tbxCharPiety.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbxCharPiety.Location = new System.Drawing.Point(81, 15);
@@ -408,9 +387,9 @@ namespace Mud.Settings.Forms
             this.tbxCharPiety.TabIndex = 27;
             this.tbxCharPiety.Tag = "XC";
             this.tbxCharPiety.Text = "PTY : 9999";
-            //
+            // 
             // tbxCharTenacity
-            //
+            // 
             this.tbxCharTenacity.BackColor = System.Drawing.SystemColors.Control;
             this.tbxCharTenacity.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbxCharTenacity.Location = new System.Drawing.Point(6, 15);
@@ -420,9 +399,9 @@ namespace Mud.Settings.Forms
             this.tbxCharTenacity.TabIndex = 26;
             this.tbxCharTenacity.Tag = "XC";
             this.tbxCharTenacity.Text = "TNC : 9999";
-            //
+            // 
             // gbxCharExtra
-            //
+            // 
             this.gbxCharExtra.Controls.Add(this.tbxCharSpellSpeed);
             this.gbxCharExtra.Controls.Add(this.tbxCharAttackMagicPotency);
             this.gbxCharExtra.Controls.Add(this.tbxCharHealingMagicPotency);
@@ -433,9 +412,9 @@ namespace Mud.Settings.Forms
             this.gbxCharExtra.TabStop = false;
             this.gbxCharExtra.Tag = "XC";
             this.gbxCharExtra.Text = "Mental";
-            //
+            // 
             // tbxCharSpellSpeed
-            //
+            // 
             this.tbxCharSpellSpeed.BackColor = System.Drawing.SystemColors.Control;
             this.tbxCharSpellSpeed.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbxCharSpellSpeed.Location = new System.Drawing.Point(6, 55);
@@ -445,9 +424,9 @@ namespace Mud.Settings.Forms
             this.tbxCharSpellSpeed.TabIndex = 25;
             this.tbxCharSpellSpeed.Tag = "XC";
             this.tbxCharSpellSpeed.Text = "SPD : 9999";
-            //
+            // 
             // tbxCharAttackMagicPotency
-            //
+            // 
             this.tbxCharAttackMagicPotency.BackColor = System.Drawing.SystemColors.Control;
             this.tbxCharAttackMagicPotency.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbxCharAttackMagicPotency.Location = new System.Drawing.Point(7, 17);
@@ -457,9 +436,9 @@ namespace Mud.Settings.Forms
             this.tbxCharAttackMagicPotency.TabIndex = 22;
             this.tbxCharAttackMagicPotency.Tag = "XC";
             this.tbxCharAttackMagicPotency.Text = "AMP : 9999";
-            //
+            // 
             // tbxCharHealingMagicPotency
-            //
+            // 
             this.tbxCharHealingMagicPotency.BackColor = System.Drawing.SystemColors.Control;
             this.tbxCharHealingMagicPotency.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbxCharHealingMagicPotency.Location = new System.Drawing.Point(6, 36);
@@ -469,9 +448,9 @@ namespace Mud.Settings.Forms
             this.tbxCharHealingMagicPotency.TabIndex = 24;
             this.tbxCharHealingMagicPotency.Tag = "XC";
             this.tbxCharHealingMagicPotency.Text = "HMP : 9999";
-            //
+            // 
             // gbxCharPhysical
-            //
+            // 
             this.gbxCharPhysical.Controls.Add(this.tbxCharSkillSpeed);
             this.gbxCharPhysical.Controls.Add(this.tbxCharAttackPower);
             this.gbxCharPhysical.Location = new System.Drawing.Point(250, 118);
@@ -481,9 +460,9 @@ namespace Mud.Settings.Forms
             this.gbxCharPhysical.TabStop = false;
             this.gbxCharPhysical.Tag = "XC";
             this.gbxCharPhysical.Text = "Physical";
-            //
+            // 
             // tbxCharSkillSpeed
-            //
+            // 
             this.tbxCharSkillSpeed.BackColor = System.Drawing.SystemColors.Control;
             this.tbxCharSkillSpeed.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbxCharSkillSpeed.Location = new System.Drawing.Point(6, 38);
@@ -493,9 +472,9 @@ namespace Mud.Settings.Forms
             this.tbxCharSkillSpeed.TabIndex = 20;
             this.tbxCharSkillSpeed.Tag = "XC";
             this.tbxCharSkillSpeed.Text = "SPD : 9999";
-            //
+            // 
             // tbxCharAttackPower
-            //
+            // 
             this.tbxCharAttackPower.BackColor = System.Drawing.SystemColors.Control;
             this.tbxCharAttackPower.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbxCharAttackPower.Location = new System.Drawing.Point(6, 17);
@@ -505,175 +484,9 @@ namespace Mud.Settings.Forms
             this.tbxCharAttackPower.TabIndex = 18;
             this.tbxCharAttackPower.Tag = "XC";
             this.tbxCharAttackPower.Text = "ATK : 9999";
-            //
-            // gbxElementalResistances
-            //
-            this.gbxElementalResistances.Controls.Add(this.ptbCharLightningResistance);
-            this.gbxElementalResistances.Controls.Add(this.ptbCharEarthResistance);
-            this.gbxElementalResistances.Controls.Add(this.ptbCharWaterResistance);
-            this.gbxElementalResistances.Controls.Add(this.ptbCharWindResistance);
-            this.gbxElementalResistances.Controls.Add(this.ptbCharIceResistance);
-            this.gbxElementalResistances.Controls.Add(this.ptbCharFireResistance);
-            this.gbxElementalResistances.Controls.Add(this.tbxCharWaterResistance);
-            this.gbxElementalResistances.Controls.Add(this.tbxCharLightningResistance);
-            this.gbxElementalResistances.Controls.Add(this.tbxCharEarthResistance);
-            this.gbxElementalResistances.Controls.Add(this.tbxCharWindResistance);
-            this.gbxElementalResistances.Controls.Add(this.tbxCharIceResistance);
-            this.gbxElementalResistances.Controls.Add(this.tbxCharFireResistance);
-            this.gbxElementalResistances.Location = new System.Drawing.Point(90, 118);
-            this.gbxElementalResistances.Name = "gbxElementalResistances";
-            this.gbxElementalResistances.Size = new System.Drawing.Size(69, 141);
-            this.gbxElementalResistances.TabIndex = 27;
-            this.gbxElementalResistances.TabStop = false;
-            this.gbxElementalResistances.Tag = "XC";
-            this.gbxElementalResistances.Text = "Elem Res";
-            //
-            // ptbCharLightningResistance
-            //
-            this.ptbCharLightningResistance.Image = global::Mud.Properties.Resources.LIGHTNING;
-            this.ptbCharLightningResistance.Location = new System.Drawing.Point(6, 100);
-            this.ptbCharLightningResistance.MaximumSize = new System.Drawing.Size(16, 16);
-            this.ptbCharLightningResistance.Name = "ptbCharLightningResistance";
-            this.ptbCharLightningResistance.Size = new System.Drawing.Size(16, 16);
-            this.ptbCharLightningResistance.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.ptbCharLightningResistance.TabIndex = 33;
-            this.ptbCharLightningResistance.TabStop = false;
-            this.ptbCharLightningResistance.Tag = "XC";
-            //
-            // ptbCharEarthResistance
-            //
-            this.ptbCharEarthResistance.Image = global::Mud.Properties.Resources.EARTH;
-            this.ptbCharEarthResistance.Location = new System.Drawing.Point(6, 79);
-            this.ptbCharEarthResistance.MaximumSize = new System.Drawing.Size(16, 16);
-            this.ptbCharEarthResistance.Name = "ptbCharEarthResistance";
-            this.ptbCharEarthResistance.Size = new System.Drawing.Size(16, 16);
-            this.ptbCharEarthResistance.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.ptbCharEarthResistance.TabIndex = 32;
-            this.ptbCharEarthResistance.TabStop = false;
-            this.ptbCharEarthResistance.Tag = "XC";
-            //
-            // ptbCharWaterResistance
-            //
-            this.ptbCharWaterResistance.Image = global::Mud.Properties.Resources.WATER;
-            this.ptbCharWaterResistance.Location = new System.Drawing.Point(6, 120);
-            this.ptbCharWaterResistance.MaximumSize = new System.Drawing.Size(16, 16);
-            this.ptbCharWaterResistance.Name = "ptbCharWaterResistance";
-            this.ptbCharWaterResistance.Size = new System.Drawing.Size(16, 16);
-            this.ptbCharWaterResistance.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.ptbCharWaterResistance.TabIndex = 31;
-            this.ptbCharWaterResistance.TabStop = false;
-            this.ptbCharWaterResistance.Tag = "XC";
-            //
-            // ptbCharWindResistance
-            //
-            this.ptbCharWindResistance.Image = global::Mud.Properties.Resources.WIND;
-            this.ptbCharWindResistance.Location = new System.Drawing.Point(6, 58);
-            this.ptbCharWindResistance.MaximumSize = new System.Drawing.Size(16, 16);
-            this.ptbCharWindResistance.Name = "ptbCharWindResistance";
-            this.ptbCharWindResistance.Size = new System.Drawing.Size(16, 16);
-            this.ptbCharWindResistance.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.ptbCharWindResistance.TabIndex = 30;
-            this.ptbCharWindResistance.TabStop = false;
-            this.ptbCharWindResistance.Tag = "XC";
-            //
-            // ptbCharIceResistance
-            //
-            this.ptbCharIceResistance.Image = global::Mud.Properties.Resources.ICE;
-            this.ptbCharIceResistance.Location = new System.Drawing.Point(6, 37);
-            this.ptbCharIceResistance.MaximumSize = new System.Drawing.Size(16, 16);
-            this.ptbCharIceResistance.Name = "ptbCharIceResistance";
-            this.ptbCharIceResistance.Size = new System.Drawing.Size(16, 16);
-            this.ptbCharIceResistance.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.ptbCharIceResistance.TabIndex = 29;
-            this.ptbCharIceResistance.TabStop = false;
-            this.ptbCharIceResistance.Tag = "XC";
-            //
-            // ptbCharFireResistance
-            //
-            this.ptbCharFireResistance.Image = global::Mud.Properties.Resources.FIRE;
-            this.ptbCharFireResistance.Location = new System.Drawing.Point(6, 15);
-            this.ptbCharFireResistance.MaximumSize = new System.Drawing.Size(16, 16);
-            this.ptbCharFireResistance.Name = "ptbCharFireResistance";
-            this.ptbCharFireResistance.Size = new System.Drawing.Size(16, 16);
-            this.ptbCharFireResistance.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.ptbCharFireResistance.TabIndex = 28;
-            this.ptbCharFireResistance.TabStop = false;
-            this.ptbCharFireResistance.Tag = "XC";
-            //
-            // tbxCharWaterResistance
-            //
-            this.tbxCharWaterResistance.BackColor = System.Drawing.SystemColors.Control;
-            this.tbxCharWaterResistance.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tbxCharWaterResistance.Location = new System.Drawing.Point(30, 122);
-            this.tbxCharWaterResistance.Name = "tbxCharWaterResistance";
-            this.tbxCharWaterResistance.ReadOnly = true;
-            this.tbxCharWaterResistance.Size = new System.Drawing.Size(31, 15);
-            this.tbxCharWaterResistance.TabIndex = 25;
-            this.tbxCharWaterResistance.Tag = "XC";
-            this.tbxCharWaterResistance.Text = "99999";
-            //
-            // tbxCharLightningResistance
-            //
-            this.tbxCharLightningResistance.BackColor = System.Drawing.SystemColors.Control;
-            this.tbxCharLightningResistance.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tbxCharLightningResistance.Location = new System.Drawing.Point(30, 101);
-            this.tbxCharLightningResistance.Name = "tbxCharLightningResistance";
-            this.tbxCharLightningResistance.ReadOnly = true;
-            this.tbxCharLightningResistance.Size = new System.Drawing.Size(31, 15);
-            this.tbxCharLightningResistance.TabIndex = 24;
-            this.tbxCharLightningResistance.Tag = "XC";
-            this.tbxCharLightningResistance.Text = "99999";
-            //
-            // tbxCharEarthResistance
-            //
-            this.tbxCharEarthResistance.BackColor = System.Drawing.SystemColors.Control;
-            this.tbxCharEarthResistance.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tbxCharEarthResistance.Location = new System.Drawing.Point(30, 80);
-            this.tbxCharEarthResistance.Name = "tbxCharEarthResistance";
-            this.tbxCharEarthResistance.ReadOnly = true;
-            this.tbxCharEarthResistance.Size = new System.Drawing.Size(31, 15);
-            this.tbxCharEarthResistance.TabIndex = 22;
-            this.tbxCharEarthResistance.Tag = "XC";
-            this.tbxCharEarthResistance.Text = "99999";
-            //
-            // tbxCharWindResistance
-            //
-            this.tbxCharWindResistance.BackColor = System.Drawing.SystemColors.Control;
-            this.tbxCharWindResistance.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tbxCharWindResistance.Location = new System.Drawing.Point(30, 59);
-            this.tbxCharWindResistance.Name = "tbxCharWindResistance";
-            this.tbxCharWindResistance.ReadOnly = true;
-            this.tbxCharWindResistance.Size = new System.Drawing.Size(31, 15);
-            this.tbxCharWindResistance.TabIndex = 20;
-            this.tbxCharWindResistance.Tag = "XC";
-            this.tbxCharWindResistance.Text = "99999";
-            //
-            // tbxCharIceResistance
-            //
-            this.tbxCharIceResistance.BackColor = System.Drawing.SystemColors.Control;
-            this.tbxCharIceResistance.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tbxCharIceResistance.Location = new System.Drawing.Point(30, 38);
-            this.tbxCharIceResistance.Name = "tbxCharIceResistance";
-            this.tbxCharIceResistance.ReadOnly = true;
-            this.tbxCharIceResistance.Size = new System.Drawing.Size(31, 15);
-            this.tbxCharIceResistance.TabIndex = 19;
-            this.tbxCharIceResistance.Tag = "XC";
-            this.tbxCharIceResistance.Text = "99999";
-            //
-            // tbxCharFireResistance
-            //
-            this.tbxCharFireResistance.BackColor = System.Drawing.SystemColors.Control;
-            this.tbxCharFireResistance.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tbxCharFireResistance.Location = new System.Drawing.Point(30, 17);
-            this.tbxCharFireResistance.Name = "tbxCharFireResistance";
-            this.tbxCharFireResistance.ReadOnly = true;
-            this.tbxCharFireResistance.Size = new System.Drawing.Size(31, 15);
-            this.tbxCharFireResistance.TabIndex = 18;
-            this.tbxCharFireResistance.Tag = "XC";
-            this.tbxCharFireResistance.Text = "99999";
-            //
+            // 
             // gbxCharDefensive
-            //
+            // 
             this.gbxCharDefensive.Controls.Add(this.tbxCharDefense);
             this.gbxCharDefensive.Controls.Add(this.tbxCharMagicDefense);
             this.gbxCharDefensive.Location = new System.Drawing.Point(165, 184);
@@ -683,9 +496,9 @@ namespace Mud.Settings.Forms
             this.gbxCharDefensive.TabStop = false;
             this.gbxCharDefensive.Tag = "XC";
             this.gbxCharDefensive.Text = "Defensive";
-            //
+            // 
             // tbxCharDefense
-            //
+            // 
             this.tbxCharDefense.BackColor = System.Drawing.SystemColors.Control;
             this.tbxCharDefense.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbxCharDefense.Location = new System.Drawing.Point(6, 20);
@@ -695,9 +508,9 @@ namespace Mud.Settings.Forms
             this.tbxCharDefense.TabIndex = 22;
             this.tbxCharDefense.Tag = "XC";
             this.tbxCharDefense.Text = "DEF : 9999";
-            //
+            // 
             // tbxCharMagicDefense
-            //
+            // 
             this.tbxCharMagicDefense.BackColor = System.Drawing.SystemColors.Control;
             this.tbxCharMagicDefense.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbxCharMagicDefense.Location = new System.Drawing.Point(6, 41);
@@ -707,9 +520,9 @@ namespace Mud.Settings.Forms
             this.tbxCharMagicDefense.TabIndex = 24;
             this.tbxCharMagicDefense.Tag = "XC";
             this.tbxCharMagicDefense.Text = "MDEF : 9999";
-            //
+            // 
             // gbxCharOffensive
-            //
+            // 
             this.gbxCharOffensive.Controls.Add(this.tbxCharDirectHit);
             this.gbxCharOffensive.Controls.Add(this.tbxCharCriticalHit);
             this.gbxCharOffensive.Location = new System.Drawing.Point(165, 118);
@@ -719,9 +532,9 @@ namespace Mud.Settings.Forms
             this.gbxCharOffensive.TabStop = false;
             this.gbxCharOffensive.Tag = "XC";
             this.gbxCharOffensive.Text = "Offensive";
-            //
+            // 
             // tbxCharDirectHit
-            //
+            // 
             this.tbxCharDirectHit.BackColor = System.Drawing.SystemColors.Control;
             this.tbxCharDirectHit.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbxCharDirectHit.Location = new System.Drawing.Point(6, 38);
@@ -731,9 +544,9 @@ namespace Mud.Settings.Forms
             this.tbxCharDirectHit.TabIndex = 20;
             this.tbxCharDirectHit.Tag = "XC";
             this.tbxCharDirectHit.Text = "DHIT : 9999";
-            //
+            // 
             // tbxCharCriticalHit
-            //
+            // 
             this.tbxCharCriticalHit.BackColor = System.Drawing.SystemColors.Control;
             this.tbxCharCriticalHit.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbxCharCriticalHit.Location = new System.Drawing.Point(6, 17);
@@ -743,9 +556,9 @@ namespace Mud.Settings.Forms
             this.tbxCharCriticalHit.TabIndex = 18;
             this.tbxCharCriticalHit.Tag = "XC";
             this.tbxCharCriticalHit.Text = "CRIT : 9999";
-            //
+            // 
             // cbxCharHideName
-            //
+            // 
             this.cbxCharHideName.AutoSize = true;
             this.cbxCharHideName.Location = new System.Drawing.Point(272, 11);
             this.cbxCharHideName.Name = "cbxCharHideName";
@@ -754,9 +567,9 @@ namespace Mud.Settings.Forms
             this.cbxCharHideName.Text = "Hide";
             this.cbxCharHideName.UseVisualStyleBackColor = true;
             this.cbxCharHideName.CheckedChanged += new System.EventHandler(this.OnCheckedHideCharName);
-            //
+            // 
             // tbxCharGrandCompany
-            //
+            // 
             this.tbxCharGrandCompany.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbxCharGrandCompany.Location = new System.Drawing.Point(108, 52);
             this.tbxCharGrandCompany.Name = "tbxCharGrandCompany";
@@ -765,9 +578,9 @@ namespace Mud.Settings.Forms
             this.tbxCharGrandCompany.TabIndex = 19;
             this.tbxCharGrandCompany.Tag = "XC";
             this.tbxCharGrandCompany.Text = "Grand Company Name";
-            //
+            // 
             // ptbCharGrandCompany
-            //
+            // 
             this.ptbCharGrandCompany.Location = new System.Drawing.Point(78, 47);
             this.ptbCharGrandCompany.MaximumSize = new System.Drawing.Size(24, 24);
             this.ptbCharGrandCompany.Name = "ptbCharGrandCompany";
@@ -776,9 +589,9 @@ namespace Mud.Settings.Forms
             this.ptbCharGrandCompany.TabIndex = 18;
             this.ptbCharGrandCompany.TabStop = false;
             this.ptbCharGrandCompany.Tag = "XC";
-            //
+            // 
             // tbxCharTP
-            //
+            // 
             this.tbxCharTP.BackColor = System.Drawing.SystemColors.Control;
             this.tbxCharTP.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbxCharTP.Location = new System.Drawing.Point(252, 76);
@@ -789,9 +602,9 @@ namespace Mud.Settings.Forms
             this.tbxCharTP.Tag = "XC";
             this.tbxCharTP.Text = "9999/9999";
             this.tbxCharTP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            //
+            // 
             // tbxCharMP_CP_GP
-            //
+            // 
             this.tbxCharMP_CP_GP.BackColor = System.Drawing.SystemColors.Control;
             this.tbxCharMP_CP_GP.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbxCharMP_CP_GP.Location = new System.Drawing.Point(146, 76);
@@ -802,9 +615,9 @@ namespace Mud.Settings.Forms
             this.tbxCharMP_CP_GP.Tag = "XC";
             this.tbxCharMP_CP_GP.Text = "99999/99999";
             this.tbxCharMP_CP_GP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            //
+            // 
             // tbxCharHP
-            //
+            // 
             this.tbxCharHP.BackColor = System.Drawing.SystemColors.Control;
             this.tbxCharHP.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbxCharHP.Location = new System.Drawing.Point(35, 76);
@@ -815,9 +628,9 @@ namespace Mud.Settings.Forms
             this.tbxCharHP.Tag = "XC";
             this.tbxCharHP.Text = "99999/99999";
             this.tbxCharHP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            //
+            // 
             // gbxCharAttributes
-            //
+            // 
             this.gbxCharAttributes.Controls.Add(this.tbxCharMind);
             this.gbxCharAttributes.Controls.Add(this.tbxCharIntelligence);
             this.gbxCharAttributes.Controls.Add(this.tbxCharVitality);
@@ -830,9 +643,9 @@ namespace Mud.Settings.Forms
             this.gbxCharAttributes.TabStop = false;
             this.gbxCharAttributes.Tag = "XC";
             this.gbxCharAttributes.Text = "Attributes";
-            //
+            // 
             // tbxCharMind
-            //
+            // 
             this.tbxCharMind.BackColor = System.Drawing.SystemColors.Control;
             this.tbxCharMind.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbxCharMind.Location = new System.Drawing.Point(6, 102);
@@ -842,9 +655,9 @@ namespace Mud.Settings.Forms
             this.tbxCharMind.TabIndex = 24;
             this.tbxCharMind.Tag = "XC";
             this.tbxCharMind.Text = "MND : 9999";
-            //
+            // 
             // tbxCharIntelligence
-            //
+            // 
             this.tbxCharIntelligence.BackColor = System.Drawing.SystemColors.Control;
             this.tbxCharIntelligence.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbxCharIntelligence.Location = new System.Drawing.Point(6, 81);
@@ -854,9 +667,9 @@ namespace Mud.Settings.Forms
             this.tbxCharIntelligence.TabIndex = 22;
             this.tbxCharIntelligence.Tag = "XC";
             this.tbxCharIntelligence.Text = "INT : 9999";
-            //
+            // 
             // tbxCharVitality
-            //
+            // 
             this.tbxCharVitality.BackColor = System.Drawing.SystemColors.Control;
             this.tbxCharVitality.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbxCharVitality.Location = new System.Drawing.Point(6, 60);
@@ -866,9 +679,9 @@ namespace Mud.Settings.Forms
             this.tbxCharVitality.TabIndex = 20;
             this.tbxCharVitality.Tag = "XC";
             this.tbxCharVitality.Text = "VIT : 9999";
-            //
+            // 
             // tbxCharDexterity
-            //
+            // 
             this.tbxCharDexterity.BackColor = System.Drawing.SystemColors.Control;
             this.tbxCharDexterity.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbxCharDexterity.Location = new System.Drawing.Point(6, 39);
@@ -878,9 +691,9 @@ namespace Mud.Settings.Forms
             this.tbxCharDexterity.TabIndex = 19;
             this.tbxCharDexterity.Tag = "XC";
             this.tbxCharDexterity.Text = "DEX : 9999";
-            //
+            // 
             // tbxCharStrength
-            //
+            // 
             this.tbxCharStrength.BackColor = System.Drawing.SystemColors.Control;
             this.tbxCharStrength.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbxCharStrength.Location = new System.Drawing.Point(6, 18);
@@ -890,9 +703,9 @@ namespace Mud.Settings.Forms
             this.tbxCharStrength.TabIndex = 18;
             this.tbxCharStrength.Tag = "XC";
             this.tbxCharStrength.Text = "STR : 9999";
-            //
+            // 
             // tbxCharJobNameLevel
-            //
+            // 
             this.tbxCharJobNameLevel.BackColor = System.Drawing.SystemColors.Control;
             this.tbxCharJobNameLevel.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbxCharJobNameLevel.Location = new System.Drawing.Point(78, 28);
@@ -902,9 +715,9 @@ namespace Mud.Settings.Forms
             this.tbxCharJobNameLevel.TabIndex = 12;
             this.tbxCharJobNameLevel.Tag = "XC";
             this.tbxCharJobNameLevel.Text = "Job : classes / Level : 99";
-            //
+            // 
             // tbxCharName
-            //
+            // 
             this.tbxCharName.BackColor = System.Drawing.SystemColors.Control;
             this.tbxCharName.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbxCharName.Location = new System.Drawing.Point(78, 11);
@@ -914,9 +727,9 @@ namespace Mud.Settings.Forms
             this.tbxCharName.TabIndex = 11;
             this.tbxCharName.Tag = "XC";
             this.tbxCharName.Text = "Character Name";
-            //
+            // 
             // ptbCharJobIcon
-            //
+            // 
             this.ptbCharJobIcon.Location = new System.Drawing.Point(5, 8);
             this.ptbCharJobIcon.MaximumSize = new System.Drawing.Size(64, 64);
             this.ptbCharJobIcon.Name = "ptbCharJobIcon";
@@ -925,9 +738,9 @@ namespace Mud.Settings.Forms
             this.ptbCharJobIcon.TabIndex = 10;
             this.ptbCharJobIcon.TabStop = false;
             this.ptbCharJobIcon.Tag = "XC";
-            //
+            // 
             // lblCharHP
-            //
+            // 
             this.lblCharHP.AutoSize = true;
             this.lblCharHP.Location = new System.Drawing.Point(8, 87);
             this.lblCharHP.Name = "lblCharHP";
@@ -935,9 +748,9 @@ namespace Mud.Settings.Forms
             this.lblCharHP.TabIndex = 4;
             this.lblCharHP.Tag = "XC";
             this.lblCharHP.Text = "HP";
-            //
+            // 
             // lblCharMP_CP_GP
-            //
+            // 
             this.lblCharMP_CP_GP.AutoSize = true;
             this.lblCharMP_CP_GP.Location = new System.Drawing.Point(117, 87);
             this.lblCharMP_CP_GP.Name = "lblCharMP_CP_GP";
@@ -945,9 +758,9 @@ namespace Mud.Settings.Forms
             this.lblCharMP_CP_GP.TabIndex = 6;
             this.lblCharMP_CP_GP.Tag = "XC";
             this.lblCharMP_CP_GP.Text = "MP";
-            //
+            // 
             // lblCharTP
-            //
+            // 
             this.lblCharTP.AutoSize = true;
             this.lblCharTP.Location = new System.Drawing.Point(228, 87);
             this.lblCharTP.Name = "lblCharTP";
@@ -955,9 +768,9 @@ namespace Mud.Settings.Forms
             this.lblCharTP.TabIndex = 8;
             this.lblCharTP.Tag = "XC";
             this.lblCharTP.Text = "TP";
-            //
+            // 
             // tabRoutine
-            //
+            // 
             this.tabRoutine.Controls.Add(this.spcRoutineActions);
             this.tabRoutine.Controls.Add(this.panel9);
             this.tabRoutine.Controls.Add(this.lblCombatRoutineName);
@@ -968,26 +781,26 @@ namespace Mud.Settings.Forms
             this.tabRoutine.TabIndex = 2;
             this.tabRoutine.Tag = "XC";
             this.tabRoutine.Text = "Routine";
-            //
+            // 
             // spcRoutineActions
-            //
+            // 
             this.spcRoutineActions.IsSplitterFixed = true;
             this.spcRoutineActions.Location = new System.Drawing.Point(3, 37);
             this.spcRoutineActions.Name = "spcRoutineActions";
-            //
+            // 
             // spcRoutineActions.Panel1
-            //
+            // 
             this.spcRoutineActions.Panel1.Controls.Add(this.gbxOutOfCombat);
-            //
+            // 
             // spcRoutineActions.Panel2
-            //
+            // 
             this.spcRoutineActions.Panel2.Controls.Add(this.gbxCombatActions);
             this.spcRoutineActions.Size = new System.Drawing.Size(324, 233);
             this.spcRoutineActions.SplitterDistance = 160;
             this.spcRoutineActions.TabIndex = 19;
-            //
+            // 
             // gbxOutOfCombat
-            //
+            // 
             this.gbxOutOfCombat.Controls.Add(this.cbxOutOfCombatPullBuff);
             this.gbxOutOfCombat.Controls.Add(this.cbxOutOfCombatRest);
             this.gbxOutOfCombat.Controls.Add(this.cbxOutOfCombatHeal);
@@ -999,9 +812,9 @@ namespace Mud.Settings.Forms
             this.gbxOutOfCombat.TabIndex = 20;
             this.gbxOutOfCombat.TabStop = false;
             this.gbxOutOfCombat.Text = "Non-Combat Actions";
-            //
+            // 
             // cbxOutOfCombatPullBuff
-            //
+            // 
             this.cbxOutOfCombatPullBuff.Checked = true;
             this.cbxOutOfCombatPullBuff.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbxOutOfCombatPullBuff.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1012,9 +825,9 @@ namespace Mud.Settings.Forms
             this.cbxOutOfCombatPullBuff.Tag = "XC";
             this.cbxOutOfCombatPullBuff.Text = "Pull Buff";
             this.cbxOutOfCombatPullBuff.UseVisualStyleBackColor = true;
-            //
+            // 
             // cbxOutOfCombatRest
-            //
+            // 
             this.cbxOutOfCombatRest.Checked = true;
             this.cbxOutOfCombatRest.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbxOutOfCombatRest.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1025,9 +838,9 @@ namespace Mud.Settings.Forms
             this.cbxOutOfCombatRest.Tag = "XC";
             this.cbxOutOfCombatRest.Text = "Rest";
             this.cbxOutOfCombatRest.UseVisualStyleBackColor = true;
-            //
+            // 
             // cbxOutOfCombatHeal
-            //
+            // 
             this.cbxOutOfCombatHeal.Checked = true;
             this.cbxOutOfCombatHeal.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbxOutOfCombatHeal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1038,9 +851,9 @@ namespace Mud.Settings.Forms
             this.cbxOutOfCombatHeal.Tag = "XC";
             this.cbxOutOfCombatHeal.Text = "Heal";
             this.cbxOutOfCombatHeal.UseVisualStyleBackColor = true;
-            //
+            // 
             // cbxOutOfCombatBuff
-            //
+            // 
             this.cbxOutOfCombatBuff.Checked = true;
             this.cbxOutOfCombatBuff.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbxOutOfCombatBuff.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1051,9 +864,9 @@ namespace Mud.Settings.Forms
             this.cbxOutOfCombatBuff.Tag = "XC";
             this.cbxOutOfCombatBuff.Text = "Pre-Combat Buff";
             this.cbxOutOfCombatBuff.UseVisualStyleBackColor = true;
-            //
+            // 
             // gbxCombatActions
-            //
+            // 
             this.gbxCombatActions.Controls.Add(this.cbxCombatActionsCombat);
             this.gbxCombatActions.Controls.Add(this.cbxCombatActionsHeal);
             this.gbxCombatActions.Controls.Add(this.cbxCombatActionsBuff);
@@ -1065,9 +878,9 @@ namespace Mud.Settings.Forms
             this.gbxCombatActions.TabIndex = 19;
             this.gbxCombatActions.TabStop = false;
             this.gbxCombatActions.Text = "In Combat Actions";
-            //
+            // 
             // cbxCombatActionsCombat
-            //
+            // 
             this.cbxCombatActionsCombat.Checked = true;
             this.cbxCombatActionsCombat.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbxCombatActionsCombat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1078,9 +891,9 @@ namespace Mud.Settings.Forms
             this.cbxCombatActionsCombat.Tag = "XC";
             this.cbxCombatActionsCombat.Text = "Combat";
             this.cbxCombatActionsCombat.UseVisualStyleBackColor = true;
-            //
+            // 
             // cbxCombatActionsHeal
-            //
+            // 
             this.cbxCombatActionsHeal.Checked = true;
             this.cbxCombatActionsHeal.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbxCombatActionsHeal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1091,9 +904,9 @@ namespace Mud.Settings.Forms
             this.cbxCombatActionsHeal.Tag = "XC";
             this.cbxCombatActionsHeal.Text = "Heal";
             this.cbxCombatActionsHeal.UseVisualStyleBackColor = true;
-            //
+            // 
             // cbxCombatActionsBuff
-            //
+            // 
             this.cbxCombatActionsBuff.Checked = true;
             this.cbxCombatActionsBuff.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbxCombatActionsBuff.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1104,9 +917,9 @@ namespace Mud.Settings.Forms
             this.cbxCombatActionsBuff.Tag = "XC";
             this.cbxCombatActionsBuff.Text = "Combat Buff";
             this.cbxCombatActionsBuff.UseVisualStyleBackColor = true;
-            //
+            // 
             // cbxCombatActionsPull
-            //
+            // 
             this.cbxCombatActionsPull.Checked = true;
             this.cbxCombatActionsPull.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbxCombatActionsPull.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1117,10 +930,10 @@ namespace Mud.Settings.Forms
             this.cbxCombatActionsPull.Tag = "XC";
             this.cbxCombatActionsPull.Text = "Pull";
             this.cbxCombatActionsPull.UseVisualStyleBackColor = true;
-            //
+            // 
             // panel9
-            //
-            this.panel9.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            // 
+            this.panel9.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel9.Controls.Add(this.cmbCombatRoutines);
@@ -1128,9 +941,9 @@ namespace Mud.Settings.Forms
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(170, 23);
             this.panel9.TabIndex = 22;
-            //
+            // 
             // cmbCombatRoutines
-            //
+            // 
             this.cmbCombatRoutines.Dock = System.Windows.Forms.DockStyle.Fill;
             this.cmbCombatRoutines.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbCombatRoutines.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1141,18 +954,18 @@ namespace Mud.Settings.Forms
             this.cmbCombatRoutines.TabIndex = 9;
             this.cmbCombatRoutines.Tag = "XC";
             this.cmbCombatRoutines.SelectedIndexChanged += new System.EventHandler(this.OnSelectedCombatRoutine);
-            //
+            // 
             // lblCombatRoutineName
-            //
+            // 
             this.lblCombatRoutineName.Location = new System.Drawing.Point(8, 12);
             this.lblCombatRoutineName.Name = "lblCombatRoutineName";
             this.lblCombatRoutineName.Size = new System.Drawing.Size(137, 17);
             this.lblCombatRoutineName.TabIndex = 21;
             this.lblCombatRoutineName.Tag = "XC";
             this.lblCombatRoutineName.Text = "Loaded Combat Routine";
-            //
+            // 
             // tabMovement
-            //
+            // 
             this.tabMovement.BackColor = System.Drawing.SystemColors.Control;
             this.tabMovement.Controls.Add(this.cbxAutoFace);
             this.tabMovement.Controls.Add(this.lblDistanceYalms);
@@ -1166,9 +979,9 @@ namespace Mud.Settings.Forms
             this.tabMovement.TabIndex = 3;
             this.tabMovement.Tag = "XC";
             this.tabMovement.Text = "Movement";
-            //
+            // 
             // cbxAutoFace
-            //
+            // 
             this.cbxAutoFace.Checked = true;
             this.cbxAutoFace.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbxAutoFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1179,10 +992,10 @@ namespace Mud.Settings.Forms
             this.cbxAutoFace.Tag = "XC";
             this.cbxAutoFace.Text = "Auto Face Target";
             this.cbxAutoFace.UseVisualStyleBackColor = true;
-			this.cbxAutoFace.CheckedChanged += new System.EventHandler(this.OnCheckedAutoFace);
-            //
+            this.cbxAutoFace.CheckedChanged += new System.EventHandler(this.OnCheckedAutoFace);
+            // 
             // lblDistanceYalms
-            //
+            // 
             this.lblDistanceYalms.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblDistanceYalms.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDistanceYalms.Location = new System.Drawing.Point(4, 295);
@@ -1190,11 +1003,11 @@ namespace Mud.Settings.Forms
             this.lblDistanceYalms.Size = new System.Drawing.Size(324, 12);
             this.lblDistanceYalms.TabIndex = 44;
             this.lblDistanceYalms.Text = "*All distances are measured in Yalms";
-            //
+            // 
             // gbxMoveInRange
-            //
-            this.gbxMoveInRange.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            // 
+            this.gbxMoveInRange.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.gbxMoveInRange.Controls.Add(this.panel7);
             this.gbxMoveInRange.Controls.Add(this.lblTargetingDistanceYalms);
@@ -1215,10 +1028,10 @@ namespace Mud.Settings.Forms
             this.gbxMoveInRange.TabIndex = 38;
             this.gbxMoveInRange.TabStop = false;
             this.gbxMoveInRange.Text = "Move In Range";
-            //
+            // 
             // panel7
-            //
-            this.panel7.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            // 
+            this.panel7.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel7.Controls.Add(this.cmbTargetingMode);
@@ -1226,9 +1039,9 @@ namespace Mud.Settings.Forms
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(204, 23);
             this.panel7.TabIndex = 41;
-            //
+            // 
             // cmbTargetingMode
-            //
+            // 
             this.cmbTargetingMode.Dock = System.Windows.Forms.DockStyle.Fill;
             this.cmbTargetingMode.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbTargetingMode.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1238,9 +1051,9 @@ namespace Mud.Settings.Forms
             this.cmbTargetingMode.Size = new System.Drawing.Size(202, 21);
             this.cmbTargetingMode.TabIndex = 9;
             this.cmbTargetingMode.Tag = "XC";
-            //
+            // 
             // lblTargetingDistanceYalms
-            //
+            // 
             this.lblTargetingDistanceYalms.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTargetingDistanceYalms.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblTargetingDistanceYalms.Location = new System.Drawing.Point(179, 142);
@@ -1249,9 +1062,9 @@ namespace Mud.Settings.Forms
             this.lblTargetingDistanceYalms.TabIndex = 40;
             this.lblTargetingDistanceYalms.Tag = "XC";
             this.lblTargetingDistanceYalms.Text = "Yalms";
-            //
+            // 
             // lblTargetingDistance
-            //
+            // 
             this.lblTargetingDistance.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblTargetingDistance.Location = new System.Drawing.Point(5, 142);
             this.lblTargetingDistance.Name = "lblTargetingDistance";
@@ -1259,9 +1072,9 @@ namespace Mud.Settings.Forms
             this.lblTargetingDistance.TabIndex = 38;
             this.lblTargetingDistance.Tag = "XC";
             this.lblTargetingDistance.Text = "Targeting Distance";
-            //
+            // 
             // lblTargetingMode
-            //
+            // 
             this.lblTargetingMode.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblTargetingMode.Location = new System.Drawing.Point(5, 115);
             this.lblTargetingMode.Name = "lblTargetingMode";
@@ -1269,10 +1082,10 @@ namespace Mud.Settings.Forms
             this.lblTargetingMode.TabIndex = 37;
             this.lblTargetingMode.Tag = "XC";
             this.lblTargetingMode.Text = "Targeting Mode";
-            //
+            // 
             // numTargetingDistance
-            //
-            this.numTargetingDistance.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            // 
+            this.numTargetingDistance.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.numTargetingDistance.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.numTargetingDistance.DecimalPlaces = 1;
@@ -1282,9 +1095,9 @@ namespace Mud.Settings.Forms
             this.numTargetingDistance.TabIndex = 39;
             this.numTargetingDistance.Tag = "XC";
             this.numTargetingDistance.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            //
+            // 
             // lblMoveWithinFollow
-            //
+            // 
             this.lblMoveWithinFollow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblMoveWithinFollow.Location = new System.Drawing.Point(63, 50);
             this.lblMoveWithinFollow.Name = "lblMoveWithinFollow";
@@ -1292,9 +1105,9 @@ namespace Mud.Settings.Forms
             this.lblMoveWithinFollow.TabIndex = 36;
             this.lblMoveWithinFollow.Tag = "XC";
             this.lblMoveWithinFollow.Text = "Move Within";
-            //
+            // 
             // cbxAutoMoveTarget
-            //
+            // 
             this.cbxAutoMoveTarget.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cbxAutoMoveTarget.Location = new System.Drawing.Point(7, 21);
             this.cbxAutoMoveTarget.Name = "cbxAutoMoveTarget";
@@ -1303,9 +1116,9 @@ namespace Mud.Settings.Forms
             this.cbxAutoMoveTarget.Tag = "XC";
             this.cbxAutoMoveTarget.Text = "Auto Move To Target*";
             this.cbxAutoMoveTarget.UseVisualStyleBackColor = true;
-            //
+            // 
             // numMaxMoveDistanceTank
-            //
+            // 
             this.numMaxMoveDistanceTank.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.numMaxMoveDistanceTank.DecimalPlaces = 1;
             this.numMaxMoveDistanceTank.Location = new System.Drawing.Point(145, 76);
@@ -1314,10 +1127,10 @@ namespace Mud.Settings.Forms
             this.numMaxMoveDistanceTank.TabIndex = 32;
             this.numMaxMoveDistanceTank.Tag = "XC";
             this.numMaxMoveDistanceTank.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            //
+            // 
             // panel1
-            //
-            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)
+            // 
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.cmbMovementMode);
@@ -1325,9 +1138,9 @@ namespace Mud.Settings.Forms
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(205, 23);
             this.panel1.TabIndex = 35;
-            //
+            // 
             // cmbMovementMode
-            //
+            // 
             this.cmbMovementMode.Dock = System.Windows.Forms.DockStyle.Fill;
             this.cmbMovementMode.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbMovementMode.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1337,9 +1150,9 @@ namespace Mud.Settings.Forms
             this.cmbMovementMode.Size = new System.Drawing.Size(203, 21);
             this.cmbMovementMode.TabIndex = 16;
             this.cmbMovementMode.Tag = "XC";
-            //
+            // 
             // lblOfFollowTarget
-            //
+            // 
             this.lblOfFollowTarget.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblOfFollowTarget.Location = new System.Drawing.Point(211, 50);
             this.lblOfFollowTarget.Name = "lblOfFollowTarget";
@@ -1347,9 +1160,9 @@ namespace Mud.Settings.Forms
             this.lblOfFollowTarget.TabIndex = 30;
             this.lblOfFollowTarget.Tag = "XC";
             this.lblOfFollowTarget.Text = "of Follow Target";
-            //
+            // 
             // lblMovementMode
-            //
+            // 
             this.lblMovementMode.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblMovementMode.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblMovementMode.Location = new System.Drawing.Point(5, 203);
@@ -1358,9 +1171,9 @@ namespace Mud.Settings.Forms
             this.lblMovementMode.TabIndex = 31;
             this.lblMovementMode.Tag = "XC";
             this.lblMovementMode.Text = "Movement Mode";
-            //
+            // 
             // lblWhen
-            //
+            // 
             this.lblWhen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblWhen.Location = new System.Drawing.Point(73, 78);
             this.lblWhen.Name = "lblWhen";
@@ -1368,9 +1181,9 @@ namespace Mud.Settings.Forms
             this.lblWhen.TabIndex = 34;
             this.lblWhen.Tag = "XC";
             this.lblWhen.Text = "When over";
-            //
+            // 
             // numMinMoveDistanceTank
-            //
+            // 
             this.numMinMoveDistanceTank.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.numMinMoveDistanceTank.DecimalPlaces = 1;
             this.numMinMoveDistanceTank.Location = new System.Drawing.Point(145, 48);
@@ -1379,10 +1192,10 @@ namespace Mud.Settings.Forms
             this.numMinMoveDistanceTank.TabIndex = 29;
             this.numMinMoveDistanceTank.Tag = "XC";
             this.numMinMoveDistanceTank.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            //
+            // 
             // panel8
-            //
-            this.panel8.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            // 
+            this.panel8.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel8.Controls.Add(this.cmbNavigationProvider);
@@ -1390,9 +1203,9 @@ namespace Mud.Settings.Forms
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(205, 23);
             this.panel8.TabIndex = 37;
-            //
+            // 
             // cmbNavigationProvider
-            //
+            // 
             this.cmbNavigationProvider.Dock = System.Windows.Forms.DockStyle.Fill;
             this.cmbNavigationProvider.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbNavigationProvider.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1402,17 +1215,17 @@ namespace Mud.Settings.Forms
             this.cmbNavigationProvider.Size = new System.Drawing.Size(203, 21);
             this.cmbNavigationProvider.TabIndex = 24;
             this.cmbNavigationProvider.SelectedIndexChanged += new System.EventHandler(this.OnSelectedNavigationProvider);
-            //
+            // 
             // lblNavigationProvider
-            //
+            // 
             this.lblNavigationProvider.Location = new System.Drawing.Point(8, 12);
             this.lblNavigationProvider.Name = "lblNavigationProvider";
             this.lblNavigationProvider.Size = new System.Drawing.Size(108, 17);
             this.lblNavigationProvider.TabIndex = 36;
             this.lblNavigationProvider.Text = "Navigation Provider";
-            //
+            // 
             // tabHotkeys
-            //
+            // 
             this.tabHotkeys.Controls.Add(this.cbxEnableHotkeyMovementMode);
             this.tabHotkeys.Controls.Add(this.cbxEnableHotkeyToogleMovement);
             this.tabHotkeys.Controls.Add(this.cbxEnableHotkeyTargetMode);
@@ -1436,9 +1249,9 @@ namespace Mud.Settings.Forms
             this.tabHotkeys.TabIndex = 1;
             this.tabHotkeys.Tag = "XC";
             this.tabHotkeys.Text = "Hotkeys";
-            //
+            // 
             // cbxEnableHotkeyMovementMode
-            //
+            // 
             this.cbxEnableHotkeyMovementMode.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cbxEnableHotkeyMovementMode.Location = new System.Drawing.Point(10, 168);
             this.cbxEnableHotkeyMovementMode.Name = "cbxEnableHotkeyMovementMode";
@@ -1447,9 +1260,9 @@ namespace Mud.Settings.Forms
             this.cbxEnableHotkeyMovementMode.Tag = "XC";
             this.cbxEnableHotkeyMovementMode.UseVisualStyleBackColor = true;
             this.cbxEnableHotkeyMovementMode.CheckedChanged += new System.EventHandler(this.OnCheckedEnableHotkeyMovementMode);
-            //
+            // 
             // cbxEnableHotkeyToogleMovement
-            //
+            // 
             this.cbxEnableHotkeyToogleMovement.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cbxEnableHotkeyToogleMovement.Location = new System.Drawing.Point(10, 122);
             this.cbxEnableHotkeyToogleMovement.Name = "cbxEnableHotkeyToogleMovement";
@@ -1458,9 +1271,9 @@ namespace Mud.Settings.Forms
             this.cbxEnableHotkeyToogleMovement.Tag = "XC";
             this.cbxEnableHotkeyToogleMovement.UseVisualStyleBackColor = true;
             this.cbxEnableHotkeyToogleMovement.CheckedChanged += new System.EventHandler(this.OnCheckedEnableToogleMovement);
-            //
+            // 
             // cbxEnableHotkeyTargetMode
-            //
+            // 
             this.cbxEnableHotkeyTargetMode.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cbxEnableHotkeyTargetMode.Location = new System.Drawing.Point(10, 77);
             this.cbxEnableHotkeyTargetMode.Name = "cbxEnableHotkeyTargetMode";
@@ -1469,9 +1282,9 @@ namespace Mud.Settings.Forms
             this.cbxEnableHotkeyTargetMode.Tag = "XC";
             this.cbxEnableHotkeyTargetMode.UseVisualStyleBackColor = true;
             this.cbxEnableHotkeyTargetMode.CheckedChanged += new System.EventHandler(this.OnCheckedEnableHotkeyTargetMode);
-            //
+            // 
             // cbxEnableHotkeyUnPause
-            //
+            // 
             this.cbxEnableHotkeyUnPause.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cbxEnableHotkeyUnPause.Location = new System.Drawing.Point(10, 29);
             this.cbxEnableHotkeyUnPause.Name = "cbxEnableHotkeyUnPause";
@@ -1480,10 +1293,10 @@ namespace Mud.Settings.Forms
             this.cbxEnableHotkeyUnPause.Tag = "XC";
             this.cbxEnableHotkeyUnPause.UseVisualStyleBackColor = true;
             this.cbxEnableHotkeyUnPause.CheckedChanged += new System.EventHandler(this.OnCheckedEnableHotkeyUnPause);
-            //
+            // 
             // panel10
-            //
-            this.panel10.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            // 
+            this.panel10.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel10.Controls.Add(this.cmbHotkeyModifierMovementMode);
@@ -1491,9 +1304,9 @@ namespace Mud.Settings.Forms
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(217, 23);
             this.panel10.TabIndex = 23;
-            //
+            // 
             // cmbHotkeyModifierMovementMode
-            //
+            // 
             this.cmbHotkeyModifierMovementMode.Dock = System.Windows.Forms.DockStyle.Fill;
             this.cmbHotkeyModifierMovementMode.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbHotkeyModifierMovementMode.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1503,9 +1316,9 @@ namespace Mud.Settings.Forms
             this.cmbHotkeyModifierMovementMode.Size = new System.Drawing.Size(215, 21);
             this.cmbHotkeyModifierMovementMode.TabIndex = 15;
             this.cmbHotkeyModifierMovementMode.Tag = "XC";
-            //
+            // 
             // lblHotkeyMoveMode
-            //
+            // 
             this.lblHotkeyMoveMode.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblHotkeyMoveMode.Location = new System.Drawing.Point(6, 146);
             this.lblHotkeyMoveMode.Name = "lblHotkeyMoveMode";
@@ -1513,10 +1326,10 @@ namespace Mud.Settings.Forms
             this.lblHotkeyMoveMode.TabIndex = 21;
             this.lblHotkeyMoveMode.Tag = "XC";
             this.lblHotkeyMoveMode.Text = "Toggle Movement Mode";
-            //
+            // 
             // panel5
-            //
-            this.panel5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            // 
+            this.panel5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel5.Controls.Add(this.cmbHotkeyModifierPause);
@@ -1524,9 +1337,9 @@ namespace Mud.Settings.Forms
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(217, 23);
             this.panel5.TabIndex = 20;
-            //
+            // 
             // cmbHotkeyModifierPause
-            //
+            // 
             this.cmbHotkeyModifierPause.Dock = System.Windows.Forms.DockStyle.Fill;
             this.cmbHotkeyModifierPause.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbHotkeyModifierPause.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1536,10 +1349,10 @@ namespace Mud.Settings.Forms
             this.cmbHotkeyModifierPause.Size = new System.Drawing.Size(215, 21);
             this.cmbHotkeyModifierPause.TabIndex = 1;
             this.cmbHotkeyModifierPause.Tag = "XC";
-            //
+            // 
             // panel4
-            //
-            this.panel4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            // 
+            this.panel4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel4.Controls.Add(this.cmbHotkeyModifierTargetMode);
@@ -1547,9 +1360,9 @@ namespace Mud.Settings.Forms
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(217, 23);
             this.panel4.TabIndex = 19;
-            //
+            // 
             // cmbHotkeyModifierTargetMode
-            //
+            // 
             this.cmbHotkeyModifierTargetMode.Dock = System.Windows.Forms.DockStyle.Fill;
             this.cmbHotkeyModifierTargetMode.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbHotkeyModifierTargetMode.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1559,10 +1372,10 @@ namespace Mud.Settings.Forms
             this.cmbHotkeyModifierTargetMode.Size = new System.Drawing.Size(215, 21);
             this.cmbHotkeyModifierTargetMode.TabIndex = 4;
             this.cmbHotkeyModifierTargetMode.Tag = "XC";
-            //
+            // 
             // panel3
-            //
-            this.panel3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            // 
+            this.panel3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel3.Controls.Add(this.cmbHotkeyModifierToogleMovement);
@@ -1570,9 +1383,9 @@ namespace Mud.Settings.Forms
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(217, 23);
             this.panel3.TabIndex = 18;
-            //
+            // 
             // cmbHotkeyModifierToogleMovement
-            //
+            // 
             this.cmbHotkeyModifierToogleMovement.Dock = System.Windows.Forms.DockStyle.Fill;
             this.cmbHotkeyModifierToogleMovement.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbHotkeyModifierToogleMovement.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1582,9 +1395,9 @@ namespace Mud.Settings.Forms
             this.cmbHotkeyModifierToogleMovement.Size = new System.Drawing.Size(215, 21);
             this.cmbHotkeyModifierToogleMovement.TabIndex = 9;
             this.cmbHotkeyModifierToogleMovement.Tag = "XC";
-            //
+            // 
             // lblHotkeyMovement
-            //
+            // 
             this.lblHotkeyMovement.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblHotkeyMovement.Location = new System.Drawing.Point(7, 100);
             this.lblHotkeyMovement.Name = "lblHotkeyMovement";
@@ -1592,9 +1405,9 @@ namespace Mud.Settings.Forms
             this.lblHotkeyMovement.TabIndex = 8;
             this.lblHotkeyMovement.Tag = "XC";
             this.lblHotkeyMovement.Text = "Toggle Movement";
-            //
+            // 
             // lblHotkeyTargetMode
-            //
+            // 
             this.lblHotkeyTargetMode.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblHotkeyTargetMode.Location = new System.Drawing.Point(6, 54);
             this.lblHotkeyTargetMode.Name = "lblHotkeyTargetMode";
@@ -1602,9 +1415,9 @@ namespace Mud.Settings.Forms
             this.lblHotkeyTargetMode.TabIndex = 3;
             this.lblHotkeyTargetMode.Tag = "XC";
             this.lblHotkeyTargetMode.Text = "Toggle Target Mode";
-            //
+            // 
             // lblHotkeyPause
-            //
+            // 
             this.lblHotkeyPause.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblHotkeyPause.Location = new System.Drawing.Point(6, 7);
             this.lblHotkeyPause.Name = "lblHotkeyPause";
@@ -1612,9 +1425,9 @@ namespace Mud.Settings.Forms
             this.lblHotkeyPause.TabIndex = 0;
             this.lblHotkeyPause.Tag = "XC";
             this.lblHotkeyPause.Text = "Pause / Unpause Mud Assist";
-            //
+            // 
             // tbxHotkeyMovementMode
-            //
+            // 
             this.tbxHotkeyMovementMode.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.tbxHotkeyMovementMode.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tbxHotkeyMovementMode.Location = new System.Drawing.Point(254, 165);
@@ -1623,9 +1436,9 @@ namespace Mud.Settings.Forms
             this.tbxHotkeyMovementMode.TabIndex = 22;
             this.tbxHotkeyMovementMode.Tag = "XC";
             this.tbxHotkeyMovementMode.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            //
+            // 
             // tbxHotkeyToogleMovement
-            //
+            // 
             this.tbxHotkeyToogleMovement.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.tbxHotkeyToogleMovement.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tbxHotkeyToogleMovement.Location = new System.Drawing.Point(254, 119);
@@ -1634,9 +1447,9 @@ namespace Mud.Settings.Forms
             this.tbxHotkeyToogleMovement.TabIndex = 10;
             this.tbxHotkeyToogleMovement.Tag = "XC";
             this.tbxHotkeyToogleMovement.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            //
+            // 
             // tbxHotkeyTargetMode
-            //
+            // 
             this.tbxHotkeyTargetMode.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.tbxHotkeyTargetMode.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tbxHotkeyTargetMode.Location = new System.Drawing.Point(254, 73);
@@ -1645,9 +1458,9 @@ namespace Mud.Settings.Forms
             this.tbxHotkeyTargetMode.TabIndex = 5;
             this.tbxHotkeyTargetMode.Tag = "XC";
             this.tbxHotkeyTargetMode.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            //
+            // 
             // tbxHotkeyPause
-            //
+            // 
             this.tbxHotkeyPause.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.tbxHotkeyPause.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tbxHotkeyPause.Location = new System.Drawing.Point(254, 26);
@@ -1656,9 +1469,9 @@ namespace Mud.Settings.Forms
             this.tbxHotkeyPause.TabIndex = 2;
             this.tbxHotkeyPause.Tag = "XC";
             this.tbxHotkeyPause.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            //
+            // 
             // tabMisc
-            //
+            // 
             this.tabMisc.Controls.Add(this.label1);
             this.tabMisc.Controls.Add(this.gbxSprint);
             this.tabMisc.Controls.Add(this.gbxGeneralSettings);
@@ -1670,9 +1483,9 @@ namespace Mud.Settings.Forms
             this.tabMisc.TabIndex = 0;
             this.tabMisc.Tag = "XC";
             this.tabMisc.Text = "Misc";
-            //
+            // 
             // label1
-            //
+            // 
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label1.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(4, 295);
@@ -1680,10 +1493,10 @@ namespace Mud.Settings.Forms
             this.label1.Size = new System.Drawing.Size(324, 12);
             this.label1.TabIndex = 45;
             this.label1.Text = "*Quests with selectable rewards need to be completed manually";
-            //
+            // 
             // gbxSprint
-            //
-            this.gbxSprint.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            // 
+            this.gbxSprint.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.gbxSprint.Controls.Add(this.cbxSprintInInstance);
             this.gbxSprint.Controls.Add(this.cbxSprintInCombat);
@@ -1694,9 +1507,9 @@ namespace Mud.Settings.Forms
             this.gbxSprint.TabIndex = 26;
             this.gbxSprint.TabStop = false;
             this.gbxSprint.Text = "Sprint";
-            //
+            // 
             // cbxSprintInInstance
-            //
+            // 
             this.cbxSprintInInstance.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.cbxSprintInInstance.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cbxSprintInInstance.Location = new System.Drawing.Point(7, 42);
@@ -1706,9 +1519,9 @@ namespace Mud.Settings.Forms
             this.cbxSprintInInstance.Tag = "XC";
             this.cbxSprintInInstance.Text = "Sprint In Instance";
             this.cbxSprintInInstance.UseVisualStyleBackColor = true;
-            //
+            // 
             // cbxSprintInCombat
-            //
+            // 
             this.cbxSprintInCombat.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.cbxSprintInCombat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cbxSprintInCombat.Location = new System.Drawing.Point(178, 19);
@@ -1718,9 +1531,9 @@ namespace Mud.Settings.Forms
             this.cbxSprintInCombat.Tag = "XC";
             this.cbxSprintInCombat.Text = "Sprint In Combat";
             this.cbxSprintInCombat.UseVisualStyleBackColor = true;
-            //
+            // 
             // cbxSprintOutOfCombat
-            //
+            // 
             this.cbxSprintOutOfCombat.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.cbxSprintOutOfCombat.Checked = true;
             this.cbxSprintOutOfCombat.CheckState = System.Windows.Forms.CheckState.Checked;
@@ -1732,10 +1545,10 @@ namespace Mud.Settings.Forms
             this.cbxSprintOutOfCombat.Tag = "XC";
             this.cbxSprintOutOfCombat.Text = "Sprint Out of Combat";
             this.cbxSprintOutOfCombat.UseVisualStyleBackColor = true;
-            //
+            // 
             // gbxGeneralSettings
-            //
-            this.gbxGeneralSettings.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            // 
+            this.gbxGeneralSettings.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.gbxGeneralSettings.Controls.Add(this.cbxPaused);
             this.gbxGeneralSettings.Controls.Add(this.cbxExecuteWhileMoving);
@@ -1746,9 +1559,9 @@ namespace Mud.Settings.Forms
             this.gbxGeneralSettings.TabIndex = 26;
             this.gbxGeneralSettings.TabStop = false;
             this.gbxGeneralSettings.Text = "General Settings";
-            //
+            // 
             // cbxPaused
-            //
+            // 
             this.cbxPaused.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cbxPaused.Location = new System.Drawing.Point(7, 19);
             this.cbxPaused.Name = "cbxPaused";
@@ -1757,9 +1570,9 @@ namespace Mud.Settings.Forms
             this.cbxPaused.Tag = "XC";
             this.cbxPaused.Text = "Pause All Actions";
             this.cbxPaused.UseVisualStyleBackColor = true;
-            //
+            // 
             // cbxExecuteWhileMoving
-            //
+            // 
             this.cbxExecuteWhileMoving.Checked = true;
             this.cbxExecuteWhileMoving.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbxExecuteWhileMoving.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1770,9 +1583,9 @@ namespace Mud.Settings.Forms
             this.cbxExecuteWhileMoving.Tag = "XC";
             this.cbxExecuteWhileMoving.Text = "Execute While Moving";
             this.cbxExecuteWhileMoving.UseVisualStyleBackColor = true;
-            //
+            // 
             // cbxAlwaysOnTop
-            //
+            // 
             this.cbxAlwaysOnTop.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.cbxAlwaysOnTop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cbxAlwaysOnTop.Location = new System.Drawing.Point(178, 19);
@@ -1782,10 +1595,10 @@ namespace Mud.Settings.Forms
             this.cbxAlwaysOnTop.Tag = "XC";
             this.cbxAlwaysOnTop.Text = "Always On Top";
             this.cbxAlwaysOnTop.UseVisualStyleBackColor = true;
-            //
+            // 
             // gbxHotkeyMessages
-            //
-            this.gbxHotkeyMessages.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            // 
+            this.gbxHotkeyMessages.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.gbxHotkeyMessages.Controls.Add(this.cbxEnableOverlay);
             this.gbxHotkeyMessages.Location = new System.Drawing.Point(4, 74);
@@ -1794,10 +1607,10 @@ namespace Mud.Settings.Forms
             this.gbxHotkeyMessages.TabIndex = 25;
             this.gbxHotkeyMessages.TabStop = false;
             this.gbxHotkeyMessages.Text = "Overlay";
-            //
+            // 
             // cbxEnableOverlay
-            //
-            this.cbxEnableOverlay.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            // 
+            this.cbxEnableOverlay.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.cbxEnableOverlay.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cbxEnableOverlay.Location = new System.Drawing.Point(7, 19);
@@ -1807,11 +1620,11 @@ namespace Mud.Settings.Forms
             this.cbxEnableOverlay.Tag = "XC";
             this.cbxEnableOverlay.Text = "Enable Overlay";
             this.cbxEnableOverlay.UseVisualStyleBackColor = true;
-            //
+            // 
             // gbxQuesting
-            //
-            this.gbxQuesting.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            // 
+            this.gbxQuesting.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.gbxQuesting.Controls.Add(this.cbxAutoCompleteQuests);
             this.gbxQuesting.Controls.Add(this.cbxAutoSkipCutscenes);
@@ -1823,9 +1636,9 @@ namespace Mud.Settings.Forms
             this.gbxQuesting.TabIndex = 22;
             this.gbxQuesting.TabStop = false;
             this.gbxQuesting.Text = "Questing";
-            //
+            // 
             // cbxAutoCompleteQuests
-            //
+            // 
             this.cbxAutoCompleteQuests.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.cbxAutoCompleteQuests.Enabled = false;
             this.cbxAutoCompleteQuests.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1836,9 +1649,9 @@ namespace Mud.Settings.Forms
             this.cbxAutoCompleteQuests.Tag = "XC";
             this.cbxAutoCompleteQuests.Text = "Auto Complete Quests*";
             this.cbxAutoCompleteQuests.UseVisualStyleBackColor = true;
-            //
+            // 
             // cbxAutoSkipCutscenes
-            //
+            // 
             this.cbxAutoSkipCutscenes.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.cbxAutoSkipCutscenes.Checked = true;
             this.cbxAutoSkipCutscenes.CheckState = System.Windows.Forms.CheckState.Checked;
@@ -1850,10 +1663,10 @@ namespace Mud.Settings.Forms
             this.cbxAutoSkipCutscenes.Tag = "XC";
             this.cbxAutoSkipCutscenes.Text = "Auto Skip Cutscenes";
             this.cbxAutoSkipCutscenes.UseVisualStyleBackColor = true;
-            //
+            // 
             // cbxAutoTalkToNPCs
-            //
-            this.cbxAutoTalkToNPCs.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            // 
+            this.cbxAutoTalkToNPCs.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.cbxAutoTalkToNPCs.Checked = true;
             this.cbxAutoTalkToNPCs.CheckState = System.Windows.Forms.CheckState.Checked;
@@ -1865,9 +1678,9 @@ namespace Mud.Settings.Forms
             this.cbxAutoTalkToNPCs.Tag = "XC";
             this.cbxAutoTalkToNPCs.Text = "Auto Talk to NPCs";
             this.cbxAutoTalkToNPCs.UseVisualStyleBackColor = true;
-            //
+            // 
             // cbxAutoAcceptQuests
-            //
+            // 
             this.cbxAutoAcceptQuests.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.cbxAutoAcceptQuests.Checked = true;
             this.cbxAutoAcceptQuests.CheckState = System.Windows.Forms.CheckState.Checked;
@@ -1879,9 +1692,9 @@ namespace Mud.Settings.Forms
             this.cbxAutoAcceptQuests.Tag = "XC";
             this.cbxAutoAcceptQuests.Text = "Auto Accept Quests";
             this.cbxAutoAcceptQuests.UseVisualStyleBackColor = true;
-            //
+            // 
             // SettingsForm
-            //
+            // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(341, 358);
             this.Controls.Add(this.tabControlMain);
@@ -1910,14 +1723,6 @@ namespace Mud.Settings.Forms
             this.gbxCharExtra.PerformLayout();
             this.gbxCharPhysical.ResumeLayout(false);
             this.gbxCharPhysical.PerformLayout();
-            this.gbxElementalResistances.ResumeLayout(false);
-            this.gbxElementalResistances.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ptbCharLightningResistance)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ptbCharEarthResistance)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ptbCharWaterResistance)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ptbCharWindResistance)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ptbCharIceResistance)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ptbCharFireResistance)).EndInit();
             this.gbxCharDefensive.ResumeLayout(false);
             this.gbxCharDefensive.PerformLayout();
             this.gbxCharOffensive.ResumeLayout(false);
@@ -1980,19 +1785,6 @@ namespace Mud.Settings.Forms
 		private GroupBox gbxCharPhysical;
 		private TextBox tbxCharSkillSpeed;
 		private TextBox tbxCharAttackPower;
-		private GroupBox gbxElementalResistances;
-		private PictureBox ptbCharLightningResistance;
-		private PictureBox ptbCharEarthResistance;
-		private PictureBox ptbCharWaterResistance;
-		private PictureBox ptbCharWindResistance;
-		private PictureBox ptbCharIceResistance;
-		private PictureBox ptbCharFireResistance;
-		private TextBox tbxCharWaterResistance;
-		private TextBox tbxCharLightningResistance;
-		private TextBox tbxCharEarthResistance;
-		private TextBox tbxCharWindResistance;
-		private TextBox tbxCharIceResistance;
-		private TextBox tbxCharFireResistance;
 		private GroupBox gbxCharDefensive;
 		private TextBox tbxCharDefense;
 		private TextBox tbxCharMagicDefense;

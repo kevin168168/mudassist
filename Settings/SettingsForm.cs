@@ -244,13 +244,6 @@ namespace Mud.Settings.Forms
             tbxCharIntelligence.Text = $@"INT : {JobHelper.Int}";
             tbxCharMind.Text = $@"MND : {JobHelper.Mnd}";
 
-            tbxCharFireResistance.Text = $@"{JobHelper.Fire}";
-            tbxCharIceResistance.Text = $@"{JobHelper.Ice}";
-            tbxCharWindResistance.Text = $@"{JobHelper.Wind}";
-            tbxCharEarthResistance.Text = $@"{JobHelper.Earth}";
-            tbxCharLightningResistance.Text = $@"{JobHelper.Lightining}";
-            tbxCharWaterResistance.Text = $@"{JobHelper.Water}";
-
             tbxCharCriticalHit.Text = $@"CRIT : {JobHelper.Crit}";
             tbxCharDirectHit.Text = $@"DHIT : {JobHelper.Dhit}";
             tbxCharDefense.Text = $@"DEF : {JobHelper.Def}";
